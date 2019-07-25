@@ -77,5 +77,5 @@ For example: A synthesis on DE2-115 FPGA:
    
    My assumed critical path is 25 ns. I will try to set STAGE_LIST to 32'b0000_0000_1000_0001_0000_0010_0001_0001.
    
-   It is not linear and try to make even.
+   It is not linear and try to make even. It is possible to use only 5~6 stages to complete a 32 bit/32 bit calculation.
      
