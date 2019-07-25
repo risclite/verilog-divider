@@ -29,7 +29,7 @@ wire [XLEN+i:0] d = {t,u}>>(i+1);
 
 "q" is the subtraction result, which is the "XLEN-i-1" bit of quotient.
 
-"d" is the next dividend.
+"d" is the remainder of this operation or the dividend of the next operation.
 
 Every iteration we get one bit of quotient. Every iteration is the operation of "i"-length subtraction. So the whole calcuation is the subtractions of "1+2+3+...32" length.
 
