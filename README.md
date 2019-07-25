@@ -31,7 +31,7 @@ wire [XLEN+i:0] d = {t,u}>>(i+1);
 
 "d" is the remainder of this operation or the dividend of the next operation.
 
-Every iteration we get one bit of quotient. Every iteration is the operation of "i"-length subtraction. So the whole calcuation is the subtractions of "1+2+3+...32" length.
+Every iteration we get one bit of quotient. Every iteration is the operation of "i"-length subtraction. So the whole calcuation is a serial of XLEN incremental-length subtractions,  which are from 1 to XLEN.
 
 ## divfunc.v ##
 
