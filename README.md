@@ -27,7 +27,7 @@ wire [XLEN+i:0] d = {t,u}>>(i+1);
 
 "n" is the shift result of divisor.
 
-"q" is the subtraction result, which is the "XLEN-i-1" bit of quotient.
+"q" is the comparison result, which is the "XLEN-i-1" bit of quotient.
 
 "d" is the remainder of this operation or the dividend of the next operation.
 
